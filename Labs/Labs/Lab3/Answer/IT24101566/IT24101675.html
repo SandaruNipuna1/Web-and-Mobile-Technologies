@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Student Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Form to collect student details -->
+    <form onsubmit="return submitForm();">
+        <fieldset>
+            <legend>Traveler Details</legend>
+        
+            <label>Name:</label><br>
+            <input type="text" id="name" required><br><br>
+        
+            <label>Age:</label><br>
+            <input type="number" id="age" required><br><br>
+        
+            <label>Email:</label><br>
+            <input type="email" id="email" required><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="tel" id="phone" required><br><br>
+        
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+
+    <p class="note">Check the browser console to see stored students</p>
+
+    <footer>
+        <p>Created by: Sandaru Nipuna | 
+            <a href="https://www.example.com">Student Profile</a>
+        </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

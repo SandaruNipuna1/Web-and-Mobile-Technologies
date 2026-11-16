@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--a-->
+	<title>Travel Adventures</title>
+	<link rel="stylesheet" href="style.css">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		/*Navigation bar*/
+		ul.nav {
+			list-style-type: none;
+			background-color: #2c3e50;
+			padding: 10px;
+		}
+
+		ul.nav li {
+			display: inline;
+			margin-right: 20px;
+		}
+
+		ul.nav li a {
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		table{
+			width: 80%;
+			border-collapse: collapse;
+			margin: 20px auto;
+			background-color: #f2f2f2;
+		}
+
+		th, td{
+			border: 1px solid solid #333;
+			padding: 8px;
+			text-align: left;
+		}
+
+		th{
+			background-color: #4CAF50;
+			color: white;
+		}
+
+		.row1 { background-color: #ffffff;}
+		.row2 { background-color: #e6ffe6;}
+	</style>
+</head>
+<body>
+	<!--Navigation Bar-->
+	<ul class="nav">
+		<li><a href="#">Home</a></li>
+		<li><a href="#">Destinations</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+	<!--b-->
+	<h1 style="text-align:center; color:#003366; margin-top:20px;">Travel Adventures</h1>
+	<p style="text-align:center; margin:15px; line-height:1.6;"><b>Travel Adventures</b> helps you explore new destinations and plan your journey in a simple and organized way. It also provided <i>useful tips and cost estimates</i> to make your travel stress-free.</p>
+	<!--c-->
+	<!-- This div groups the image and the hyperlink related to travel information -->
+	<div style="text-align:center; margin:20px;">
+		<img 
+			src="./images/travel2.jpg.avif" 
+			alt="Travelling" 
+			width="300" 
+			height="200"
+			style="border:2px solid #333; padding:5px;"
+			>
+	<!--d-->
+	<p><a href="https://www.srilanka.travel/">Visit the official website of sri 	Lanka Tourism</a></p>
+	</div>
+	<!--e-->
+	<hr>
+	<!--f-->
+	<h2>Packing Essentials</h2>
+	
+	<p>Good preparation helps travelers enjoy a safe and comfortable journey.</	p>
+	
+	<ol>	
+		<li>Clothes</li>
+		<li>Travel Documents</li>
+		<li>Gadgets
+			<ul>
+			<li>Laptop</li>
+			<li>Smartphone</li>
+			</ul>
+		</li>
+		<li>Toiletries</li>
+	</ol>
+	<!--g-->
+	<h3>Trip Cost Overview</h3>
+	<table class="trip-table">
+    	<tr>
+        	<th>Item</th>
+        	<th>Cost</th>
+        	<th>Included Items</th>
+    	</tr>
+
+    	<tr class="row1">
+        	<td>Flight</td>
+        	<td>1200</td>
+        	<td>
+            	<ul>
+                	<li>Air ticket</li>
+                	<li>Airport tax</li>
+            	</ul>
+        	</td>
+    	</tr>
+
+    	<tr class="row2">
+        	<td>Hostel</td>
+        	<td>800</td>
+        	<td>
+ 	            <ul>
+     	           <li>Accommodation</li>
+        	        <li>Free Wi-Fi</li>
+            	</ul>
+        	</td>
+    	</tr>
+	</table>
+
+	<!--h-->
+
+	<h2>Traveler Information</h2>
+	
+	<p>Please enter your details:</p>
+
+	<form>
+		<fieldset>
+		<legend>Personal Details</legend>
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name"><br><br>
+		
+		<label for="age">Age:</label><br>
+		<input type="number" id="age" name="age"><br><br>
+
+		<label for="email">Email:</label><br>
+		<input type="email" id="email" name="email"><br><br>
+
+		<input type="submit" value="Submit">
+		</fieldset>
+	</form>	
+
+	<!--i-->
+	<hr>
+	<!--j-->
+	<footer>
+		<p>Created by: Sandaru Nipuna | <a href="#">Student Profile</a></p>
+		
+	</footer>
+</body>
+</html>

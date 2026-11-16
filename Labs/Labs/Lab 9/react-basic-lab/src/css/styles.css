@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.navbar {
+  background: #1f3550;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 25px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding: 20px;
+}
+
+.pet-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.pet-card button {
+  background: #2eaf5d;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.pet-card button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.cart {
+  background: #e9ecef;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+}
